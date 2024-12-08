@@ -1,5 +1,8 @@
 header{
     background-color: #FFB300;
+    font-family: 'Cinzel Decorative';
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .navbar-brand1{
@@ -10,12 +13,20 @@ header{
     }
 
     .nav-item{
-        font-size: 14px;
+        font-family: 'faja one';
+        font-size: 20px;
+        font-weight: bolder;
     }
     .btn{
-        font-size: 11px;
+        font-family: 'faja one';
+        font-size: 16px;
     
     }
+    /* Para ocultar la sección de agregar productos*/
+    #oculto{
+        display: none;
+        }
+      
     .contenedor {
         max-width: 1200px;
         margin: 0 auto;
@@ -119,9 +130,7 @@ header{
         max-width: 100%;
     }
 
-
-
-    .footer {
+.footer {
         width: 100%;
         margin: 0;
         background: linear-gradient(#73C2FB, #73C2FB, #28A0F6);
@@ -177,3 +186,6 @@ header{
         
     }
     
+
+
+  
